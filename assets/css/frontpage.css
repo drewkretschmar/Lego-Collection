@@ -8,9 +8,11 @@
 .header {
     background-color: green;
     color: white;
+    text-shadow: 2px 2px 0px black;
     padding: 10px;
     font-weight: bold;
     font-size: 40px;
+    width: 100%;
 }
 
 .header h1 {
@@ -36,6 +38,7 @@
 a:link, a:visited {
     color: rgb(48, 79, 136);
     font-weight: bold;
+    text-shadow: 1px 1px 0px black;
     font-size: 30px;
     text-decoration: none;
 }
@@ -46,4 +49,13 @@ a:hover {
 
 a:active {
     color: rgb(199, 72, 99);
+}
+
+body {
+    background-image: url(../images/brick-background.jpg);
+}
+
+.body p {
+    background-color: white;
+    margin: 50px;
 }
