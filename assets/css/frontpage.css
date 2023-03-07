@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Helvetica';
+}
+
+.header {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+}
+
+a:link, a:visited {
+    color: rgb(48, 79, 136);
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(38, 203, 209);
+}
+
+a:active {
+    color: rgb(199, 72, 99);
+}
