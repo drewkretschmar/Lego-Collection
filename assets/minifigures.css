@@ -16,8 +16,16 @@
 }
 
 .header h1 {
+    position: relative;
     display: inline-block;
     font-size: 50px;
+}
+
+#logo {
+    position: absolute;
+    display: inline;
+    height: 50px;
+    left: 273px;
 }
 
 .header nav {
@@ -33,14 +41,22 @@
 
 .header nav ul li {
     display: inline-block;
+    margin-left: 25px;
 }
 
 a:link, a:visited {
     color: rgb(48, 79, 136);
+    background-color: rgb(116, 116, 197);
     font-weight: bold;
     text-shadow: 1px 1px 0px black;
     font-size: 30px;
     text-decoration: none;
+    border: solid 2px black;
+    box-shadow: 2px 2px rgb(5, 51, 95);
+    padding-left: 2px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    border-radius: 10px;
 }
 
 a:hover {
@@ -52,10 +68,5 @@ a:active {
 }
 
 body {
-    background-image: url(../images/brick-background.jpg);
-}
-
-.body p {
-    background-color: white;
-    margin: 50px;
+    background-image: url(./images/brick-background.jpg);
 }
